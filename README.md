@@ -12,9 +12,7 @@ define(["./comp/demo", "text!./template/aaa.html", "css!./css/aaa1.css", "css!./
 
 ```
 
-||
-||
-\/
+↓↓↓
 
 ```js
 
