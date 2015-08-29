@@ -4,7 +4,10 @@ fis parser插件 将requirejs的text、css插件转换为符合fis3的依赖规�
 
 ```js
 
-define(["./comp/demo", "text!./template/aaa.html", "css!./css/aaa1.css", "css!./css/aaa2.css"],
+define(["./comp/demo", 
+	"text!./template/aaa.html", 
+	"css!./css/aaa1.css", 
+	"css!./css/aaa2.css"],
  function(demo, tpl){
 	
 	console.log(tpl);
@@ -18,7 +21,10 @@ define(["./comp/demo", "text!./template/aaa.html", "css!./css/aaa1.css", "css!./
 
 //@require ./css/aaa1.css
 //@require ./css/aaa2.css
-define(["./comp/demo", "text!./template/aaa.html", "css!./css/aaa.css", "css!./css/aaa2.css"],
+define(["./comp/demo", 
+	"text!./template/aaa.html", 
+	"css!./css/aaa.css", 
+	"css!./css/aaa2.css"],
  function(demo){
 
      var tpl = __inline(./template/aaa.html);
