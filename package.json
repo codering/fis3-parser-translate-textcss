@@ -19,6 +19,11 @@
     "url": "https://github.com/codering/fis3-parser-translate-textcss/issues"
   },
   "homepage": "https://github.com/codering/fis3-parser-translate-textcss#readme",
+  "dependencies": {
+    "escodegen": "^1.6.1",
+    "esprima": "^2.5.0",
+    "estraverse": "^4.1.0"
+  },
   "devDependencies": {
     "escodegen": "^1.6.1",
     "esprima": "^2.5.0",
