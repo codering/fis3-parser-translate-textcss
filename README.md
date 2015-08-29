@@ -24,7 +24,7 @@ define(["./comp/demo",
 define(["./comp/demo"],
  function(demo){
 
-     var tpl = __inline(./template/aaa.html);
+     var tpl = __inline("./template/aaa.html");
      console.log(tpl);
 })
 
