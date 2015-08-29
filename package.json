@@ -1,0 +1,27 @@
+{
+  "name": "fis3-parser-translate-textcss",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codering/fis3-parser-translate-textcss.git"
+  },
+  "keywords": [
+    "requirejs"
+  ],
+  "author": "justin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codering/fis3-parser-translate-textcss/issues"
+  },
+  "homepage": "https://github.com/codering/fis3-parser-translate-textcss#readme",
+  "devDependencies": {
+    "escodegen": "^1.6.1",
+    "esprima": "^2.5.0",
+    "estraverse": "^4.1.0"
+  }
+}
