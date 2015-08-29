@@ -21,10 +21,7 @@ define(["./comp/demo",
 
 //@require ./css/aaa1.css
 //@require ./css/aaa2.css
-define(["./comp/demo", 
-	"text!./template/aaa.html", 
-	"css!./css/aaa.css", 
-	"css!./css/aaa2.css"],
+define(["./comp/demo"],
  function(demo){
 
      var tpl = __inline(./template/aaa.html);
