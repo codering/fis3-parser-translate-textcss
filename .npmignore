@@ -6,6 +6,7 @@
 /test
 /.tmp
 /debug
+/.vscode
 
 .DS_Store
 
