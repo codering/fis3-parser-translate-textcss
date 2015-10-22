@@ -84,10 +84,12 @@ module.exports = function (content, file, options) {
                     type: "Literal",
                     value: depId
                   });
-                  factoryParams.push({
-                      type: "Identifier",
-                      name: fparam
-                  })
+                  if(fparam) {
+                      factoryParams.push({
+                        type: "Identifier",
+                        name: fparam
+                      })
+                  }
               }
             }
             
