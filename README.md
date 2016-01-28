@@ -2,6 +2,20 @@
 
 fis3 parser插件 将requirejs的text、css插件转换为符合fis3的依赖规范
 
+### 安装
+cnpm install -g fis3-parser-translate-textcss
+
+### 使用
+
+```js
+// 对依赖requirejs的text, css插件的js模块 进行转换
+fis.match('/path/to/*.js',{
+    parser: fis.plugin('translate-textcss')
+})
+
+```
+
+
 ```js
 
 define(["./comp/demo", 
